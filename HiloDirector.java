@@ -1,4 +1,4 @@
-package pr02;
+package pg02;
 
 public class HiloDirector extends Thread{
 

@@ -1,4 +1,4 @@
-﻿package pg02.p1;
+﻿package pg02;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
