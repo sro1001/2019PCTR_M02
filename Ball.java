@@ -41,6 +41,7 @@ public class Ball {
 		reflect();
 		
 		//TODO Check postcondition
+		testPostCondicion(x,y);
 	}
 
 	private void reflect() {
@@ -86,5 +87,11 @@ public class Ball {
 		return image;
 	}
 
+	private void testPostCondicion(double posX, double posY) {
+        assert posX > Board.LEFTBOARD;
+        assert posY < Board.TOPBOARD;
+        assert posX < Board.RIGHTBOARD;
+        assert posY > Board.BOTTOMBOARD;
+    }
 }
 
